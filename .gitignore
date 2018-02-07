@@ -16,6 +16,11 @@ meta.ini
 
 /00 Core/dd_plugin_src/skse64
 /00 Core/dd_plugin_src/common
+/00 Core/SKSE/Plugins/*.exp
+/00 Core/SKSE/Plugins/*.iobj
+/00 Core/SKSE/Plugins/*.ipdb
+/00 Core/SKSE/Plugins/*.lib
+/00 Core/SKSE/Plugins/*.pdb
 
 #################
 ## Visual Studio
