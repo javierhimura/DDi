@@ -1,16 +1,16 @@
-#include "skse/PluginAPI.h"
-#include "skse/PapyrusArgs.h"
-#include "skse/PapyrusClass.h"
-#include "skse/PapyrusVM.h"
-#include "skse/PapyrusNativeFunctions.h"
+#include "skse64/PluginAPI.h"
+#include "skse64/PapyrusArgs.h"
+#include "skse64/PapyrusClass.h"
+#include "skse64/PapyrusVM.h"
+#include "skse64/PapyrusNativeFunctions.h"
 
-#include "skse/GameData.h"
-#include "skse/GameTypes.h"
-#include "skse/GameForms.h"
-#include "skse/GameRTTI.h"
-#include "skse/GameReferences.h"
-#include "skse/GameObjects.h"
-#include "skse/GameBSExtraData.h"
+#include "skse64/GameData.h"
+#include "skse64/GameTypes.h"
+#include "skse64/GameForms.h"
+#include "skse64/GameRTTI.h"
+#include "skse64/GameReferences.h"
+#include "skse64/GameObjects.h"
+#include "skse64/GameBSExtraData.h"
 
 #include <string> 
 #include <math.h>

@@ -1,6 +1,6 @@
-#include "skse/PluginAPI.h"
-#include "skse/skse_version.h"
-#include "skse/SafeWrite.h"
+#include "skse64/PluginAPI.h"
+#include "skse64_common/skse_version.h"
+#include "skse64_common/SafeWrite.h"
 #include "DeviousDevices.h"
 #include <shlobj.h>
 
@@ -38,7 +38,7 @@ extern "C"
 
 	return false;
       }
-    else if(skse->runtimeVersion != RUNTIME_VERSION_1_9_32_0)
+    else if(skse->runtimeVersion != RUNTIME_VERSION_1_5_23)
       {
 	_MESSAGE("unsupported runtime version %08X", skse->runtimeVersion);
 

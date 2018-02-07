@@ -1,16 +1,16 @@
 #include "DeviousDevices.h"
 #define _USE_MATH_DEFINES
 #include <math.h>
-#include "skse/PapyrusActor.h"
-#include "skse/GameForms.h"
-#include "skse/GameData.h"
-#include "skse/GameObjects.h"
-#include "skse/GameReferences.h"
-#include "skse/GameExtraData.h"
-#include "skse/GameRTTI.h"
-#include "skse/GameThreads.h"
-#include "skse/HashUtil.h"
-#include "skse/PapyrusForm.h"
+#include "skse64/PapyrusActor.h"
+#include "skse64/GameForms.h"
+#include "skse64/GameData.h"
+#include "skse64/GameObjects.h"
+#include "skse64/GameReferences.h"
+#include "skse64/GameExtraData.h"
+#include "skse64/GameRTTI.h"
+#include "skse64/GameThreads.h"
+#include "skse64/HashUtil.h"
+#include "skse64/PapyrusForm.h"
 
 
 namespace DeviousDevices {
