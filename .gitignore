@@ -29,7 +29,16 @@ meta.ini
 /00 Core/SKSE/Plugins/*.ipdb
 /00 Core/SKSE/Plugins/*.lib
 /00 Core/SKSE/Plugins/*.pdb
-
+/00 Core/LE/SKSE/Plugins/*.exp
+/00 Core/LE/SKSE/Plugins/*.iobj
+/00 Core/LE/SKSE/Plugins/*.ipdb
+/00 Core/LE/SKSE/Plugins/*.lib
+/00 Core/LE/SKSE/Plugins/*.pdb
+/00 Core/SSE/SKSE/Plugins/*.exp
+/00 Core/SSE/SKSE/Plugins/*.iobj
+/00 Core/SSE/SKSE/Plugins/*.ipdb
+/00 Core/SSE/SKSE/Plugins/*.lib
+/00 Core/SSE/SKSE/Plugins/*.pdb
 #################
 ## Visual Studio
 #################
