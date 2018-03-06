@@ -1,12 +1,18 @@
 /scripts/Source/bak
 /scripts/Source/Min-Notes.txt
 /scripts/Source/*.bat
-/dd_plugin_src/*.user
-/dd_plugin_src/Debug/
-/dd_plugin_src/Release/
-/dd_plugin_src/*.ncb
-/dd_plugin_src/*.suo
-/dd_plugin_src/*.def
+/dd_plugin_src_x64/*.user
+/dd_plugin_src_x64/Debug/
+/dd_plugin_src_x64/Release/
+/dd_plugin_src_x64/*.ncb
+/dd_plugin_src_x64/*.suo
+/dd_plugin_src_x64/*.def
+/dd_plugin_src_x86/*.user
+/dd_plugin_src_x86/Debug/
+/dd_plugin_src_x86/Release/
+/dd_plugin_src_x86/*.ncb
+/dd_plugin_src_x86/*.suo
+/dd_plugin_src_x86/*.def
 /SKSE/Plugins/*.exp
 /SKSE/Plugins/*.lib
 /SKSE/Plugins/*.pdb
@@ -14,8 +20,10 @@
 
 meta.ini
 
-/00 Core/dd_plugin_src/skse64
-/00 Core/dd_plugin_src/common
+/00 Core/dd_plugin_src_x64/skse64
+/00 Core/dd_plugin_src_x64/common
+/00 Core/dd_plugin_src_x86/skse64
+/00 Core/dd_plugin_src_x86/common
 /00 Core/SKSE/Plugins/*.exp
 /00 Core/SKSE/Plugins/*.iobj
 /00 Core/SKSE/Plugins/*.ipdb
