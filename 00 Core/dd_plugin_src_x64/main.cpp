@@ -18,7 +18,7 @@ extern "C"
 
   bool SKSEPlugin_Query(const SKSEInterface * skse, PluginInfo * info)
   {
-    gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim\\SKSE\\DDi.log");
+    gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim Special Edition\\SKSE\\DDi.log");
     gLog.SetPrintLevel(IDebugLog::kLevel_Error);
     gLog.SetLogLevel(IDebugLog::kLevel_DebugMessage);
     gLog.SetLogLevel(IDebugLog::kLevel_Message);
@@ -38,7 +38,7 @@ extern "C"
 
 	return false;
       }
-    else if(skse->runtimeVersion != RUNTIME_VERSION_1_5_23)
+    else if(skse->runtimeVersion != RUNTIME_VERSION_1_5_39)
       {
 	_MESSAGE("unsupported runtime version %08X", skse->runtimeVersion);
 
