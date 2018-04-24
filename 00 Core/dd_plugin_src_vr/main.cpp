@@ -3,7 +3,6 @@
 #include "skse64_common/SafeWrite.h"
 #include "DeviousDevices.h"
 #include <shlobj.h>
-
 //The log file for all your messages...
 IDebugLog	gLog("DDi.log");
 
@@ -18,7 +17,7 @@ extern "C"
 
   bool SKSEPlugin_Query(const SKSEInterface * skse, PluginInfo * info)
   {
-    gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim SVR\\SKSE\\DDi.log");
+    gLog.OpenRelative(CSIDL_MYDOCUMENTS, "\\My Games\\Skyrim VR\\SKSE\\DDi.log");
     gLog.SetPrintLevel(IDebugLog::kLevel_Error);
     gLog.SetLogLevel(IDebugLog::kLevel_DebugMessage);
     gLog.SetLogLevel(IDebugLog::kLevel_Message);
