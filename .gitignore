@@ -22,6 +22,8 @@ meta.ini
 
 /00 Core/dd_plugin_src_x64/skse64
 /00 Core/dd_plugin_src_x64/common
+/00 Core/dd_plugin_src_vr/skse64
+/00 Core/dd_plugin_src_vr/common
 /00 Core/dd_plugin_src_x86/skse64
 /00 Core/dd_plugin_src_x86/common
 /00 Core/SKSE/Plugins/*.exp
